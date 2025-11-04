@@ -4,4 +4,5 @@ git clone // to copy the contents from GitHub to the local - usually followed by
 git status // to check the status of the file - whether it has been linked or not 
 git add . ( to add all) 
 git commit -m "" -m""       // first -m to commit change title and second -m to commit change description
-git push // to send any changes from local to GitHub
+git push // to send any changes from local to GitHub 
+git push origin main // origin is our actual github's repo ( using gitclone we copied that repo) (main signifies that the change has to be made on the main branch)
