@@ -6,6 +6,19 @@ git add . ( to add all)
 git commit -m "" -m""       // first -m to commit change title and second -m to commit change description
 git push // to send any changes from local to GitHub 
 git push origin main // origin is our actual github's repo ( using gitclone we copied that repo) (main signifies that the change has to be made on the main branch)
+
+you just Insert - Add - commit and Push - in general to make changes 
+
+
+
+
+
 cd <folder/repo name> // to move to that directory / folder - the directory is new or 1st time
 cd ../<folder/repo name> // if thats a second time generated repo and we want to go to it 
 git init // to add this second repo to the github 
+git remote add origin <link of the new reference repo> // adding a local repo to a reference repo in github 
+git remote -v // checking the status of the remote 
+
+git push -u origin main // if we dont want to write origin main every single time - we use -u means an upstream which signifies that we want to push it to that location - in our case it is the orign main 
+so next time we can just use git push 
+
