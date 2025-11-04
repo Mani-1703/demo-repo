@@ -1,0 +1,7 @@
+// Git commands 
+
+git clone // to copy the contents from GitHub to the local - usually followed by the clone link - ex: git clone https://github.com/Mani-1703/demo-repo.git
+git status // to check the status of the file - whether it has been linked or not 
+git add . ( to add all) 
+git commit -m "" -m""       // first -m to commit change title and second -m to commit change description
+git push // to send any changes from local to GitHub
