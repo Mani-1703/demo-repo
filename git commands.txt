@@ -24,3 +24,4 @@ so next time we can just use git push
 
 // a small revision 
 // git pull // to pull the changes from github to the local 
+// git branch -M <main/master> // when the name of the repo is changed from main to master or vice versa - use this command to change the name
