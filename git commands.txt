@@ -23,4 +23,4 @@ git push -u origin main // if we dont want to write origin main every single tim
 so next time we can just use git push 
 
 // a small revision 
-
+// git pull // to pull the changes from github to the local 
