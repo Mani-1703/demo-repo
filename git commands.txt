@@ -22,3 +22,5 @@ git remote -v // checking the status of the remote
 git push -u origin main // if we dont want to write origin main every single time - we use -u means an upstream which signifies that we want to push it to that location - in our case it is the orign main 
 so next time we can just use git push 
 
+// a small revision 
+
